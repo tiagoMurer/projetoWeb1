@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilizacao.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light custom-nav">
+        <a class="navbar-brand custom-nav" href="#">Projeto Web</a>
+        <button class="navbar-toggler custom-nav" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon custom-nav"></span>
+            </button>
+            <div class="collapse navbar-collapse custom-nav" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item custom-nav">
+                  <a class="nav-link" href="login.html">Login </a>
+                </li>
+                <li class="nav-item custom-nav">
+                  <a class="nav-link" href="formulario.html">Formulário</a>
+                </li>
+                <li class="nav-item custom-nav">
+                  <a class="nav-link" href="imagem.html">Imagem <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item custom-nav">
+                  <a class="nav-link" href="texto.html">Texto</a>
+                </li>
+              </ul>
+            </div>
+</nav>
+
+<div class="container">
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text" id="basic-addon1">Nome</span>
+    </div>
+    <input type="text" class="form-control" placeholder="Usuário" aria-label="Usuário" aria-describedby="basic-addon1">
+  </div>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text" id="basic-addon1">Sobrenome</span>
+    </div>
+    <input type="text" class="form-control" placeholder="Usuário" aria-label="Usuário" aria-describedby="basic-addon1">
+  </div>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text" id="basic-addon1">Endereço</span>
+    </div>
+    <input type="text" class="form-control" placeholder="Usuário" aria-label="Usuário" aria-describedby="basic-addon1">
+  </div>
+  <form>
+    <div class="form-group">
+      <label for="formControlRange">Telefone:</label><span id="slider-output" style="margin-left:10px;">0</span>
+      <input type="range" value="0" min="0" max="999999999" class="form-control-range" id="formControlRange">
+    </div>
+  </form>
+
+</div>
+    
+</body>
+</html>

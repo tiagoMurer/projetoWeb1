@@ -1,0 +1,18 @@
+::Projeto semestral::
+
+Cinco tipos de estruturas HTML em quatro páginas:
+Um menu em todas as páginas e cada página com as seguintes estruturas:
+- texto
+- formulário
+- imagem
+- login
+
+Requisitos:
+
+- Responsividade:   Uso dos elementos do BootStrap 4; Tema diferente do original;
+
+- Pg. formulário:   Validação de dados por HTML5/Javascript;
+
+- Pg. imagem:       Pelo menos uma imagem (jpg ou gif ou png) e um gráfico vetorial SVG;
+
+- Pg. texto:        Simulador de pagamentos de parcelas implementado em Javascript com técnicas de criação de elementos, apresentando dados em tabela e cálculo de juros composto.

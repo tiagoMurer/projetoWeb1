@@ -1,0 +1,71 @@
+/*
+Paleta de cores:
+Preto:          #161c25
+Cinza: 	        #344054
+Azul escuro:    #34669c
+Azul médio: 	#338be3
+Azul claro:     #75b0ec
+Branco:         #F7F7F7
+
+
+*/
+
+
+
+body {
+    background-color: #161c25;
+}
+
+
+.nav{
+    padding: 0px;
+}
+
+.custom-nav{
+    background-color: #344054;
+    color: #f7f7f7 !important;
+}
+
+.container{
+    background-color: #344054;
+    color: #f7f7f7;
+    margin: 2em;
+    border-radius:10px;
+    padding: 20px;
+    max-width: 600px !important;
+    height: auto !important;
+}
+
+
+.nav-item{
+    border-radius: 5px;
+}
+.nav-item, .nav-item>a{
+    transition: all .3s !important;
+}
+
+.nav-item>a{
+    color: #f7f7f7 !important;
+}
+
+.nav-item>a:hover{
+    color: #344054 !important;
+}
+
+.nav-item:hover{
+    background-color: #f7f7f7 !important;
+}
+
+.opc{
+    transition: all .3s;
+}
+
+.opc:hover{
+    transform: scale(1.1, 1.1);
+}
+
+img{
+    width: 400px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
